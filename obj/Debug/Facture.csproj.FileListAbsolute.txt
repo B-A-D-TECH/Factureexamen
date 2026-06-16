@@ -1,0 +1,10 @@
+C:\Users\chill\Desktop\Facture\bin\Debug\Facture.exe.config
+C:\Users\chill\Desktop\Facture\bin\Debug\Facture.exe
+C:\Users\chill\Desktop\Facture\bin\Debug\Facture.pdb
+C:\Users\chill\Desktop\Facture\obj\Debug\Facture.csproj.AssemblyReference.cache
+C:\Users\chill\Desktop\Facture\obj\Debug\Facture.Properties.Resources.resources
+C:\Users\chill\Desktop\Facture\obj\Debug\Facture.csproj.GenerateResource.cache
+C:\Users\chill\Desktop\Facture\obj\Debug\Facture.csproj.CoreCompileInputs.cache
+C:\Users\chill\Desktop\Facture\obj\Debug\Facture.exe
+C:\Users\chill\Desktop\Facture\obj\Debug\Facture.pdb
+C:\Users\chill\Desktop\Facture\obj\Debug\Facture.Form1.resources

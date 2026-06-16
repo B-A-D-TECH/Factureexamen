@@ -1,0 +1,331 @@
+﻿namespace Facture
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Variable nécessaire au concepteur.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Nettoyage des ressources utilisées.
+        /// </summary>
+        /// <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Code généré par le Concepteur Windows Form
+
+        /// <summary>
+        /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+        /// le contenu de cette méthode avec l'éditeur de code.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dataGridViewInvoices = new System.Windows.Forms.DataGridView();
+            this.labelClient = new System.Windows.Forms.Label();
+            this.textBoxClient = new System.Windows.Forms.TextBox();
+            this.labelInvoiceNumber = new System.Windows.Forms.Label();
+            this.textBoxInvoiceNumber = new System.Windows.Forms.TextBox();
+            this.labelDate = new System.Windows.Forms.Label();
+            this.dateTimePickerDate = new System.Windows.Forms.DateTimePicker();
+            this.labelAmount = new System.Windows.Forms.Label();
+            this.numericUpDownAmount = new System.Windows.Forms.NumericUpDown();
+            this.labelCurrency = new System.Windows.Forms.Label();
+            this.comboBoxCurrency = new System.Windows.Forms.ComboBox();
+            this.labelPaymentTerm = new System.Windows.Forms.Label();
+            this.numericUpDownPaymentTerm = new System.Windows.Forms.NumericUpDown();
+            this.labelPaymentMethod = new System.Windows.Forms.Label();
+            this.textBoxPaymentMethod = new System.Windows.Forms.TextBox();
+            this.labelObservation = new System.Windows.Forms.Label();
+            this.textBoxObservation = new System.Windows.Forms.TextBox();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.buttonUpdate = new System.Windows.Forms.Button();
+            this.buttonDelete = new System.Windows.Forms.Button();
+            this.buttonSave = new System.Windows.Forms.Button();
+            this.buttonLoad = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInvoices)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAmount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPaymentTerm)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridViewInvoices
+            // 
+            this.dataGridViewInvoices.AllowUserToAddRows = false;
+            this.dataGridViewInvoices.AllowUserToDeleteRows = false;
+            this.dataGridViewInvoices.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridViewInvoices.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewInvoices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewInvoices.Location = new System.Drawing.Point(12, 12);
+            this.dataGridViewInvoices.MultiSelect = false;
+            this.dataGridViewInvoices.Name = "dataGridViewInvoices";
+            this.dataGridViewInvoices.ReadOnly = true;
+            this.dataGridViewInvoices.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewInvoices.Size = new System.Drawing.Size(560, 426);
+            this.dataGridViewInvoices.TabIndex = 0;
+            this.dataGridViewInvoices.SelectionChanged += new System.EventHandler(this.dataGridViewInvoices_SelectionChanged);
+            // 
+            // labelClient
+            // 
+            this.labelClient.AutoSize = true;
+            this.labelClient.Location = new System.Drawing.Point(588, 38);
+            this.labelClient.Name = "labelClient";
+            this.labelClient.Size = new System.Drawing.Size(33, 13);
+            this.labelClient.TabIndex = 1;
+            this.labelClient.Text = "Client";
+            // 
+            // textBoxClient
+            // 
+            this.textBoxClient.Location = new System.Drawing.Point(591, 54);
+            this.textBoxClient.Name = "textBoxClient";
+            this.textBoxClient.Size = new System.Drawing.Size(197, 20);
+            this.textBoxClient.TabIndex = 2;
+            // 
+            // labelInvoiceNumber
+            // 
+            this.labelInvoiceNumber.AutoSize = true;
+            this.labelInvoiceNumber.Location = new System.Drawing.Point(588, -5);
+            this.labelInvoiceNumber.Name = "labelInvoiceNumber";
+            this.labelInvoiceNumber.Size = new System.Drawing.Size(44, 13);
+            this.labelInvoiceNumber.TabIndex = 0;
+            this.labelInvoiceNumber.Text = "Numéro";
+            // 
+            // textBoxInvoiceNumber
+            // 
+            this.textBoxInvoiceNumber.Location = new System.Drawing.Point(591, 11);
+            this.textBoxInvoiceNumber.Name = "textBoxInvoiceNumber";
+            this.textBoxInvoiceNumber.Size = new System.Drawing.Size(197, 20);
+            this.textBoxInvoiceNumber.TabIndex = 1;
+            // 
+            // labelDate
+            // 
+            this.labelDate.AutoSize = true;
+            this.labelDate.Location = new System.Drawing.Point(588, 87);
+            this.labelDate.Name = "labelDate";
+            this.labelDate.Size = new System.Drawing.Size(30, 13);
+            this.labelDate.TabIndex = 3;
+            this.labelDate.Text = "Date";
+            // 
+            // dateTimePickerDate
+            // 
+            this.dateTimePickerDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePickerDate.Location = new System.Drawing.Point(591, 80);
+            this.dateTimePickerDate.Name = "dateTimePickerDate";
+            this.dateTimePickerDate.Size = new System.Drawing.Size(197, 20);
+            this.dateTimePickerDate.TabIndex = 4;
+            // 
+            // labelAmount
+            // 
+            this.labelAmount.AutoSize = true;
+            this.labelAmount.Location = new System.Drawing.Point(588, 136);
+            this.labelAmount.Name = "labelAmount";
+            this.labelAmount.Size = new System.Drawing.Size(46, 13);
+            this.labelAmount.TabIndex = 5;
+            this.labelAmount.Text = "Montant";
+            // 
+            // numericUpDownAmount
+            // 
+            this.numericUpDownAmount.DecimalPlaces = 2;
+            this.numericUpDownAmount.Location = new System.Drawing.Point(591, 129);
+            this.numericUpDownAmount.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.numericUpDownAmount.Name = "numericUpDownAmount";
+            this.numericUpDownAmount.Size = new System.Drawing.Size(197, 20);
+            this.numericUpDownAmount.TabIndex = 6;
+            // 
+            // labelCurrency
+            // 
+            this.labelCurrency.AutoSize = true;
+            this.labelCurrency.Location = new System.Drawing.Point(588, 169);
+            this.labelCurrency.Name = "labelCurrency";
+            this.labelCurrency.Size = new System.Drawing.Size(40, 13);
+            this.labelCurrency.TabIndex = 7;
+            this.labelCurrency.Text = "Devise";
+            // 
+            // comboBoxCurrency
+            // 
+            this.comboBoxCurrency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxCurrency.FormattingEnabled = true;
+            this.comboBoxCurrency.Location = new System.Drawing.Point(591, 185);
+            this.comboBoxCurrency.Name = "comboBoxCurrency";
+            this.comboBoxCurrency.Size = new System.Drawing.Size(197, 21);
+            this.comboBoxCurrency.TabIndex = 8;
+            // 
+            // labelPaymentTerm
+            // 
+            this.labelPaymentTerm.AutoSize = true;
+            this.labelPaymentTerm.Location = new System.Drawing.Point(588, 214);
+            this.labelPaymentTerm.Name = "labelPaymentTerm";
+            this.labelPaymentTerm.Size = new System.Drawing.Size(92, 13);
+            this.labelPaymentTerm.TabIndex = 9;
+            this.labelPaymentTerm.Text = "Délai de paiement";
+            // 
+            // numericUpDownPaymentTerm
+            // 
+            this.numericUpDownPaymentTerm.Location = new System.Drawing.Point(591, 230);
+            this.numericUpDownPaymentTerm.Maximum = new decimal(new int[] {
+            365,
+            0,
+            0,
+            0});
+            this.numericUpDownPaymentTerm.Name = "numericUpDownPaymentTerm";
+            this.numericUpDownPaymentTerm.Size = new System.Drawing.Size(197, 20);
+            this.numericUpDownPaymentTerm.TabIndex = 10;
+            // 
+            // labelPaymentMethod
+            // 
+            this.labelPaymentMethod.AutoSize = true;
+            this.labelPaymentMethod.Location = new System.Drawing.Point(588, 259);
+            this.labelPaymentMethod.Name = "labelPaymentMethod";
+            this.labelPaymentMethod.Size = new System.Drawing.Size(100, 13);
+            this.labelPaymentMethod.TabIndex = 11;
+            this.labelPaymentMethod.Text = "Moyen de paiement";
+            // 
+            // textBoxPaymentMethod
+            // 
+            this.textBoxPaymentMethod.Location = new System.Drawing.Point(591, 275);
+            this.textBoxPaymentMethod.Name = "textBoxPaymentMethod";
+            this.textBoxPaymentMethod.Size = new System.Drawing.Size(197, 20);
+            this.textBoxPaymentMethod.TabIndex = 12;
+            // 
+            // labelObservation
+            // 
+            this.labelObservation.AutoSize = true;
+            this.labelObservation.Location = new System.Drawing.Point(588, 304);
+            this.labelObservation.Name = "labelObservation";
+            this.labelObservation.Size = new System.Drawing.Size(64, 13);
+            this.labelObservation.TabIndex = 13;
+            this.labelObservation.Text = "Observation";
+            // 
+            // textBoxObservation
+            // 
+            this.textBoxObservation.Location = new System.Drawing.Point(591, 320);
+            this.textBoxObservation.Multiline = true;
+            this.textBoxObservation.Name = "textBoxObservation";
+            this.textBoxObservation.Size = new System.Drawing.Size(197, 34);
+            this.textBoxObservation.TabIndex = 14;
+            // 
+            // buttonAdd
+            // 
+            this.buttonAdd.Location = new System.Drawing.Point(591, 408);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(60, 30);
+            this.buttonAdd.TabIndex = 9;
+            this.buttonAdd.Text = "Ajouter";
+            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            // 
+            // buttonUpdate
+            // 
+            this.buttonUpdate.Location = new System.Drawing.Point(666, 408);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(60, 30);
+            this.buttonUpdate.TabIndex = 10;
+            this.buttonUpdate.Text = "Modifier";
+            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
+            // 
+            // buttonDelete
+            // 
+            this.buttonDelete.Location = new System.Drawing.Point(732, 408);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(60, 30);
+            this.buttonDelete.TabIndex = 11;
+            this.buttonDelete.Text = "Suppr";
+            this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
+            // 
+            // buttonSave
+            // 
+            this.buttonSave.Location = new System.Drawing.Point(591, 360);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(95, 30);
+            this.buttonSave.TabIndex = 12;
+            this.buttonSave.Text = "Enregistrer";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
+            // 
+            // buttonLoad
+            // 
+            this.buttonLoad.Location = new System.Drawing.Point(693, 360);
+            this.buttonLoad.Name = "buttonLoad";
+            this.buttonLoad.Size = new System.Drawing.Size(95, 30);
+            this.buttonLoad.TabIndex = 13;
+            this.buttonLoad.Text = "Charger";
+            this.buttonLoad.UseVisualStyleBackColor = true;
+            this.buttonLoad.Click += new System.EventHandler(this.buttonLoad_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonLoad);
+            this.Controls.Add(this.buttonSave);
+            this.Controls.Add(this.buttonDelete);
+            this.Controls.Add(this.buttonUpdate);
+            this.Controls.Add(this.buttonAdd);
+            this.Controls.Add(this.textBoxObservation);
+            this.Controls.Add(this.labelObservation);
+            this.Controls.Add(this.textBoxPaymentMethod);
+            this.Controls.Add(this.labelPaymentMethod);
+            this.Controls.Add(this.numericUpDownPaymentTerm);
+            this.Controls.Add(this.labelPaymentTerm);
+            this.Controls.Add(this.comboBoxCurrency);
+            this.Controls.Add(this.labelCurrency);
+            this.Controls.Add(this.numericUpDownAmount);
+            this.Controls.Add(this.labelAmount);
+            this.Controls.Add(this.dateTimePickerDate);
+            this.Controls.Add(this.labelDate);
+            this.Controls.Add(this.textBoxClient);
+            this.Controls.Add(this.labelClient);
+            this.Controls.Add(this.textBoxInvoiceNumber);
+            this.Controls.Add(this.labelInvoiceNumber);
+            this.Controls.Add(this.dataGridViewInvoices);
+            this.Name = "Form1";
+            this.Text = "Gestion des factures";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInvoices)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAmount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownPaymentTerm)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        private System.Windows.Forms.DataGridView dataGridViewInvoices;
+        private System.Windows.Forms.Label labelClient;
+        private System.Windows.Forms.TextBox textBoxClient;
+        private System.Windows.Forms.Label labelInvoiceNumber;
+        private System.Windows.Forms.TextBox textBoxInvoiceNumber;
+        private System.Windows.Forms.Label labelDate;
+        private System.Windows.Forms.DateTimePicker dateTimePickerDate;
+        private System.Windows.Forms.Label labelAmount;
+        private System.Windows.Forms.NumericUpDown numericUpDownAmount;
+        private System.Windows.Forms.Label labelCurrency;
+        private System.Windows.Forms.ComboBox comboBoxCurrency;
+        private System.Windows.Forms.Label labelPaymentTerm;
+        private System.Windows.Forms.NumericUpDown numericUpDownPaymentTerm;
+        private System.Windows.Forms.Label labelPaymentMethod;
+        private System.Windows.Forms.TextBox textBoxPaymentMethod;
+        private System.Windows.Forms.Label labelObservation;
+        private System.Windows.Forms.TextBox textBoxObservation;
+        private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.Button buttonUpdate;
+        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Button buttonSave;
+        private System.Windows.Forms.Button buttonLoad;
+
+        #endregion
+    }
+}
+
